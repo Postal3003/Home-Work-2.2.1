@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    
+    // MARK: - IB Outlets
     @IBOutlet weak var colorView: UIView!
     
     @IBOutlet weak var redLabel: UILabel!
@@ -20,11 +20,21 @@ class ViewController: UIViewController {
     @IBOutlet weak var greenSlider: UISlider!
     @IBOutlet weak var blueSlider: UISlider!
     
+    // MARK: - life cycles methods
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        colorView.layer.cornerRadius = 15
+        
+        redSlider.minimumTrackTintColor = .red
+        greenSlider.minimumTrackTintColor = .green
      
+//        setColor()
+//        setValue(for: redLabel, greenLabel, blueLabel)
     }
 
+    // MARK: IB Actions
+    
 
 }
 
