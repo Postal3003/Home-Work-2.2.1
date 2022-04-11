@@ -106,6 +106,15 @@
                             <constraint firstItem="W6o-W9-kgm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="zkT-Kj-rla"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="blueLabel" destination="5va-zv-IWe" id="M4R-oN-5a9"/>
+                        <outlet property="blueSlider" destination="6r0-9U-dyF" id="xuM-go-chG"/>
+                        <outlet property="colorView" destination="W6o-W9-kgm" id="ZIs-vJ-3Vq"/>
+                        <outlet property="greenLabel" destination="Nf6-vQ-Vcx" id="XHC-Ot-Rvx"/>
+                        <outlet property="greenSlider" destination="aRz-59-AEc" id="Khe-8Q-y8x"/>
+                        <outlet property="redLabel" destination="cEO-qj-16Y" id="NaM-45-iTO"/>
+                        <outlet property="redSlider" destination="Ac4-fd-X75" id="yyx-8o-LVc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
